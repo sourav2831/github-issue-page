@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: lightseagreen;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  position: relative;
+  width: 95%;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 95%;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+form.modify-note {
+  position: relative;
+}
+form input,
+form textarea {
+  border: none;
+  outline: none;
+  width: 200px;
+  font-size: 1.2em;
+  font-family: inherit;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.form-center {
+  position: absolute !important;
+  padding-top: 10px;
+  left: 30%;
+  right: 75%;
+}
+.form-center input[type="text"]{
+  padding:5px;
+  border-radius: 20px;
+  width:500px;
+  border: none;
+}
+.fab {
+  margin: 0px;
+  top: auto;
+  right: 20px;
+  bottom: 20px;
+  float: right;
+  position: fixed;
+  z-index: 1;
+};
+button{
+position: relative;
+float: right;
+margin-right: 10px;
+color: #f5ba13;
+border: none;
+width: 36px;
+height: 36px;
+cursor: pointer;
+outline: none;
+}
+
+.set-filter{
+  position: absolute !important;
+  padding-top: 10px;
+  left: 22%;
+  right: 75%;
+}
